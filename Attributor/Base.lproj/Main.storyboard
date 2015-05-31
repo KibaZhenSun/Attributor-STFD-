@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E26a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E26a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="RI0-cA-Ffk">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Kiba Inuzuka-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="AttributorViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -16,29 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="XCm-oc-IIa">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <string key="text">Kiba Inuzuka (犬塚キバ, Inuzuka Kiba) is a member of Konohagakure's Inuzuka clan. Both he and his canine companion, Akamaru, are members of Team Kurenai.
-
-At a very young age, Akamaru was given to Kiba by his mother, Tsume, and the two became very close soon afterwards. Before entering the Academy, Kiba and Akamaru played together a great deal, resulting in Tsume getting angry because they weren't training enough.[6] During Kiba's time at the Academy, he often cut class with Akamaru, stating that he wasn't suited to sit still at a desk, or otherwise getting into trouble, along with Chōji Akimichi, Shikamaru Nara, and Naruto Uzumaki. Together, these four would skip class and go to the practice hall (not to practice). They thought that it was fun to also test the patience of Iruka Umino, their Academy instructor. One day, Kiba fell asleep during class and upon waking up saw Naruto for the first time, attempting to use the Transformation Technique to turn into the Third Hokage, failing twice. This caused Kiba to find Naruto incompetent, and he became among those who ridiculed him.
-
-At some time in the past, Kiba knew his father; but because of his mother's attitude, Tsume scared him away, leaving him just with her and his sister Hana Inuzuka. Despite this, Kiba stays in a close relationship with his sister and mother,[7] although he seems to agree that Tsume is rather frightening.
-
-Kiba's personality and fighting style is further complemented by his wild appearance as while clearly human, he has several physical traits more akin to animals. Like most of his clan, he has messy brown hair, sharp black eyes with vertical slit-like pupils, pronounced canine teeth, and nails that he can change into claws. He also has the distinctive red fang markings of the Inuzuka clan on his cheeks.
-
-During Part I, Kiba's attire consisted of dark greyish pants reaching to his calves and a grey, hooded fur-lined coat, with the hood usually placed on his head, over an apparent plate of armour and fishnet undershirt seen in his fight with Sakon and Ukon, with a blue forehead protector and blue sandals.
-
-Kiba - The Last -
-Kiba in The Last: Naruto the Movie.
-During Part II, each piece of his outfit, including his forehead protector, switched to a black colour, with his coat being replaced by what looks like a nowadays leather form fitting black jacket, with zips over the chest and sleeves, along with black pants and sandals, also zipped, matching the jacket. He, along with the rest of the Konoha 11, dons the standard Konohagakure shinobi outfit during the Fourth Shinobi World War.
-
-Two years after the war, he has grown a goatee and his hair has gotten a bit longer, although less spiky. He wears the new standard flak jacket underneath a open fur coat, and black fingerless gloves. He wears grey pants reaching his calves and new sandals with a slight difference to his previous ones.</string>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="98" width="342" height="411"/>
-                                </variation>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4sY-yq-DHZ">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -116,51 +93,142 @@ Two years after the war, he has grown a goatee and his hair has gotten a bit lon
                                     <action selector="changeBodySelectionColorToMatchBackgroundOfButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tQd-Tx-spM"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kiba Inuzuka" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Efz-Ue-YX8">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="XCm-oc-IIa">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <mutableString key="text">Kiba Inuzuka (犬塚キバ, Inuzuka Kiba) is a member of Konohagakure's Inuzuka clan. Both he and his canine companion, Akamaru, are members of Team Kurenai.
+
+At a very young age, Akamaru was given to Kiba by his mother, Tsume, and the two became very close soon afterwards. Before entering the Academy, Kiba and Akamaru played together a great deal, resulting in Tsume getting angry because they weren't training enough.[6] During Kiba's time at the Academy, he often cut class with Akamaru, stating that he wasn't suited to sit still at a desk, or otherwise getting into trouble, along with Chōji Akimichi, Shikamaru Nara, and Naruto Uzumaki. Together, these four would skip class and go to the practice hall (not to practice). They thought that it was fun to also test the patience of Iruka Umino, their Academy instructor. One day, Kiba fell asleep during class and upon waking up saw Naruto for the first time, attempting to use the Transformation Technique to turn into the Third Hokage, failing twice. This caused Kiba to find Naruto incompetent, and he became among those who ridiculed him.
+
+At some time in the past, Kiba knew his father; but because of his mother's attitude, Tsume scared him away, leaving him just with her and his sister Hana Inuzuka. Despite this, Kiba stays in a close relationship with his sister and mother,[7] although he seems to agree that Tsume is rather frightening.
+
+Kiba's personality and fighting style is further complemented by his wild appearance as while clearly human, he has several physical traits more akin to animals. Like most of his clan, he has messy brown hair, sharp black eyes with vertical slit-like pupils, pronounced canine teeth, and nails that he can change into claws. He also has the distinctive red fang markings of the Inuzuka clan on his cheeks.
+
+During Part I, Kiba's attire consisted of dark greyish pants reaching to his calves and a grey, hooded fur-lined coat, with the hood usually placed on his head, over an apparent plate of armour and fishnet undershirt seen in his fight with Sakon and Ukon, with a blue forehead protector and blue sandals.
+
+Kiba - The Last -
+Kiba in The Last: Naruto the Movie.
+During Part II, each piece of his outfit, including his forehead protector, switched to a black colour, with his coat being replaced by what looks like a nowadays leather form fitting black jacket, with zips over the chest and sleeves, along with black pants and sandals, also zipped, matching the jacket. He, along with the rest of the Konoha 11, dons the standard Konohagakure shinobi outfit during the Fourth Shinobi World War.
+
+Two years after the war, he has grown a goatee and his hair has gotten a bit longer, although less spiky. He wears the new standard flak jacket underneath a open fur coat, and black fingerless gloves. He wears grey pants reaching his calves and new sandals with a slight difference to his previous ones.</mutableString>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="118" y="51" width="138" height="39"/>
+                                    <rect key="frame" x="16" y="64" width="342" height="445"/>
                                 </variation>
-                            </label>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="XCm-oc-IIa"/>
                                 <exclude reference="4sY-yq-DHZ"/>
                                 <exclude reference="g1C-CO-DGk"/>
                                 <exclude reference="6q0-jS-bbi"/>
                                 <exclude reference="YUS-LO-Y4f"/>
                                 <exclude reference="ydy-rg-fDW"/>
                                 <exclude reference="DsF-Iq-lBo"/>
-                                <exclude reference="Efz-Ue-YX8"/>
+                                <exclude reference="XCm-oc-IIa"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="XCm-oc-IIa"/>
                                 <include reference="4sY-yq-DHZ"/>
                                 <include reference="g1C-CO-DGk"/>
                                 <include reference="6q0-jS-bbi"/>
                                 <include reference="YUS-LO-Y4f"/>
                                 <include reference="ydy-rg-fDW"/>
                                 <include reference="DsF-Iq-lBo"/>
-                                <include reference="Efz-Ue-YX8"/>
+                                <include reference="XCm-oc-IIa"/>
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" title="Kiba Inuzuka" id="lJ7-a0-gOt">
+                        <barButtonItem key="rightBarButtonItem" title="Stats" id="GwT-PX-Cpb">
+                            <connections>
+                                <segue destination="lH2-6t-wJ8" kind="show" identifier="Analyze Text" id="Pdx-lf-MUR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="body" destination="XCm-oc-IIa" id="ZIM-dq-RRO"/>
-                        <outlet property="headline" destination="Efz-Ue-YX8" id="zGv-PU-oa4"/>
                         <outlet property="outlineButton" destination="4sY-yq-DHZ" id="Tlx-xP-JO6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="439.5" y="366.75"/>
+            <point key="canvasLocation" x="-919.5" y="265.5"/>
+        </scene>
+        <!--Text Stats View Controller-->
+        <scene sceneID="goa-qt-V8H">
+            <objects>
+                <viewController id="lH2-6t-wJ8" customClass="TextStatsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Oht-ju-pUg"/>
+                        <viewControllerLayoutGuide type="bottom" id="xVV-LU-iyb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="c4B-3D-nSf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colorful Characters: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6TK-nK-JbC">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.53333333329999999" green="0.79607843140000001" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="130" width="342" height="33"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Outlined Characters: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGF-mW-ljj">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.85882352939999995" green="0.45882352939999999" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="180" width="342" height="33"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="6TK-nK-JbC"/>
+                                <exclude reference="rGF-mW-ljj"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="6TK-nK-JbC"/>
+                                <include reference="rGF-mW-ljj"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="wHu-wQ-MfB"/>
+                    <connections>
+                        <outlet property="colorfulCharactersLabel" destination="6TK-nK-JbC" id="OzL-dq-MWF"/>
+                        <outlet property="outlinedCharactersLabel" destination="rGF-mW-ljj" id="OBJ-b7-yAa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CsY-pz-N5F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-75" y="265.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="oKX-7r-j6G">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RI0-cA-Ffk" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="a05-PL-bN7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="QFl-X2-tYQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1bR-8V-Dnt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1831.5" y="265.5"/>
         </scene>
     </scenes>
 </document>
